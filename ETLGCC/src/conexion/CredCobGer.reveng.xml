@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+  <table-filter match-catalog="CredCobGer" match-name="ahorro"/>
+  <table-filter match-catalog="CredCobGer" match-name="aportacion"/>
+  <table-filter match-catalog="CredCobGer" match-name="asociado"/>
+  <table-filter match-catalog="CredCobGer" match-name="bitacora_usu"/>
+  <table-filter match-catalog="CredCobGer" match-name="credito"/>
+  <table-filter match-catalog="CredCobGer" match-name="deposito_plazo"/>
+  <table-filter match-catalog="CredCobGer" match-name="direccion"/>
+  <table-filter match-catalog="CredCobGer" match-name="linea_credito"/>
+  <table-filter match-catalog="CredCobGer" match-name="otorga"/>
+  <table-filter match-catalog="CredCobGer" match-name="proy_anual"/>
+  <table-filter match-catalog="CredCobGer" match-name="proy_mens"/>
+  <table-filter match-catalog="CredCobGer" match-name="rubro_proyeccion"/>
+  <table-filter match-catalog="CredCobGer" match-name="sucursal"/>
+  <table-filter match-catalog="CredCobGer" match-name="telefono"/>
+  <table-filter match-catalog="CredCobGer" match-name="tipo_usuario"/>
+  <table-filter match-catalog="CredCobGer" match-name="usuario"/>
+</hibernate-reverse-engineering>

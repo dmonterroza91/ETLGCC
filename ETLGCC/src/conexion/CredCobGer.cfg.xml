@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <property name="name">CredCobGer</property>
+  <property name="hibernate.connection.driver_class">org.gjt.mm.mysql.Driver</property>
+  <property name="hibernate.connection.password">pingpong</property>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost/CredCobGer</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLMyISAMDialect</property>
+  <property name="hibernate.current_session_context_class">thread</property>
+  <mapping class="credCobGerClasses.Ahorro"/>
+  <mapping class="credCobGerClasses.Aportacion"/>
+  <mapping class="credCobGerClasses.Asociado"/>
+  <mapping class="credCobGerClasses.BitacoraUsu"/>
+  <mapping class="credCobGerClasses.Credito"/>
+  <mapping class="credCobGerClasses.DepositoPlazo"/>
+  <mapping class="credCobGerClasses.Direccion"/>
+  <mapping class="credCobGerClasses.LineaCredito"/>
+  <mapping class="credCobGerClasses.Otorga"/>
+  <mapping class="credCobGerClasses.ProyAnual"/>
+  <mapping class="credCobGerClasses.ProyMens"/>
+  <mapping class="credCobGerClasses.RubroProyeccion"/>
+  <mapping class="credCobGerClasses.Sucursal"/>
+  <mapping class="credCobGerClasses.Telefono"/>
+  <mapping class="credCobGerClasses.TipoUsuario"/>
+  <mapping class="credCobGerClasses.Usuario"/>
+ </session-factory>
+</hibernate-configuration>
